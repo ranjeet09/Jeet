@@ -1,0 +1,11 @@
+.google-bar {
+  font-size: 13px;
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+  border-radius: 40px;
+  border-style: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+}

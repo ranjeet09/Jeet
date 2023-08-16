@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .allflex {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .column1 {
+        background-color: lightpink;
+        width: 100px;
+        flex-shrink: 0;
+      }
+
+      .row1 {
+        display: block;
+        background: none;
+        border: none;
+      }
+
+      .column2 {
+        background-color: lightblue;
+        width: 200px;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+      }
+
+      .row2 {
+        margin-left: -168px;
+      }
+
+      p {
+        background-color: black;
+        color: white;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="allflex">
+      <div class="column1">
+      </div>
+      <div class="column2">
+        <div class="row">row1
+          <p class="row2">row2</p>
+          <p>row2</p>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
+
+<!--Exercise2 Lesson 13 My Answer up!-->
+<!--Real CSS Answer fron the course for referrences:
+
+  .flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2-item {
+  background-color: black;
+  color: white;
+}
+
+HTML
+
+<html>
+  <head>
+    <link rel="stylesheet" href="13b.css">
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="column1"></div>
+      <div class="column2">
+        <div>row1</div>
+        <div class="row2">
+          <div class="row2-item">row2</div>
+          <div class="row2-item">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+-->

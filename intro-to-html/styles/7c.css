@@ -1,0 +1,17 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 50%;
+}
+/*
+7c.css LINK if its LINK
+  .cat-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+*/
